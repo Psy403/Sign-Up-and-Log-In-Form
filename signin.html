@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register & Log In</title>
+    <title>Log In</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sign In</h1>
+    <div class="container">
+        <h1 class="header">Sign In</h1>
     <form action="#">
         <label for="email">Username</label>
-        <input type="email" placeholder="Enter your email"><br><br>
+        <input type="email" class="put2" placeholder="Enter your email"><br><br>
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Enter your password"><br><br>
+        <input type="password" class="put2" placeholder="Enter your password"><br><br>
 
-        <input type="submit" value="Log In">
+        <button class="l-in">Log In </button>
         
-<p>--------------------or--------------------</p>
-        
-        <p>Don't have account yet</p>
-        <input type="submit" value="Sign Up">
+
     </form>
+
+        <p class="or">--------------------or--------------------</p>
+    
+    <div class="info">
+               
+            <p class="abc">Don't have account yet?</p>
+
+     <button class="sup2-btn">Sign Up</button>
+    </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
