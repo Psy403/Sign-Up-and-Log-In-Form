@@ -9,14 +9,21 @@
 <body>
     <div class="container">
         <h1 class="header">Sign In</h1>
-    <form action="#">
+    <form action="#" onsubmit="return abc()" method="post" name="sin-form">
+        
+        <div id="name" class="formdesign">
         <label for="email">Username</label>
-        <input type="email" class="put2" placeholder="Enter your email"><br><br>
+        <input type="email" name="fname" class="put2" placeholder="Enter your email"><b><span class="formerror"></span></b>
+        <br><br>
+        </div>
 
+        <div id="pass" class="formdesign">
         <label for="password">Password</label>
-        <input type="password" class="put2" placeholder="Enter your password"><br><br>
+        <input type="password" name="fpass" class="put2" placeholder="Enter your password"><b><span class="formerror"></span></b>
+        <br><br>
+        </div>
 
-        <button class="l-in">Log In </button>
+        <input type="submit" class="l-in" value="Log In">
         
 
     </form>
@@ -26,8 +33,8 @@
     <div class="info">
                
             <p class="abc">Don't have account yet?</p>
+            <input type="submit" class="sup2-btn" value="Sign Up">
 
-     <button class="sup2-btn">Sign Up</button>
     </div>
     </div>
     <script src="script.js"></script>
