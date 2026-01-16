@@ -10,7 +10,7 @@
 
 <div class="container" id="signup">
     <h1 class="form-title">Register</h1>
-    <form action="#" method="post">
+    <form action="#" onsubmit="return xyz()" method="post" name="sup-form">
     
     <div class="input">
         <label for="Name">First Name</label>
@@ -26,7 +26,7 @@
     
     <div class="input">
         <label for="birthday">Date of birth</label>
-        <input type="date" class="put" required><br><br>
+        <input type="date" class="put" name="dob" required><br><br>
     </div>
 
     <div class="input">
@@ -41,12 +41,26 @@
 
     <div class="input">
         <label for="password">Confirm Password</label>
-        <input type="password" id="pass" class="put" name="password" placeholder="Confirm your password"><br><br>
+        <input type="password" id="cpass" class="put" name="conpass" placeholder="Confirm your password"><br><br>
     </div>
 
     <div class="btn">
-         <input type="submit" name="signup" id="sup-btn" class="btn" value="Sign Up"><br><br>
+         <input type="button" name="signup" id="sup-btn" class="btn" value="Sign Up"><br><br>
     </div>
+
+    <div class="showpass">
+        <button id="show">
+            Show
+        </button>
+    </div>
+
+
+     <div class="showpassword">
+        <button id="showing">
+            Show
+        </button>
+    </div>
+
 
 
     <p class="or">--------------------or--------------------</p>

@@ -197,3 +197,28 @@ padding-left: 10px;
     color: rgb(125,125,235);
     text-decoration: underline;
 }
+
+
+
+#show{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: royalblue;
+    position: absolute;
+    top: 22.2pc;
+    right:35pc;
+}
+
+
+#showing{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: royalblue;
+    position: absolute;
+    top: 25.1pc;
+    right:35pc;
+}
+
+
