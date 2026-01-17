@@ -85,6 +85,7 @@ label{
 #sup-btn:hover{
     text-decoration: underline;
     background-color: rgb(125,125,235);
+    cursor: pointer;
 }
 
 .or{
@@ -120,6 +121,7 @@ label{
 #sin-btn:hover{
     text-decoration: underline;
     color: rgb(125,125,235);
+    cursor: pointer;
 }
 
 .header{
@@ -168,6 +170,7 @@ padding-left: 10px;
 .l-in:hover{
     background-color: rgb(125,125,235);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -196,6 +199,7 @@ padding-left: 10px;
 .sup2-btn:hover{
     color: rgb(125,125,235);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -210,6 +214,10 @@ padding-left: 10px;
     right:35pc;
 }
 
+#show:hover{
+    cursor: pointer;
+}
+
 
 #showing{
     border: none;
@@ -219,6 +227,10 @@ padding-left: 10px;
     position: absolute;
     top: 25.1pc;
     right:35pc;
+}
+
+#showing:hover{
+    cursor: pointer;
 }
 
 

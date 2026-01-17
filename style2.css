@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #323232 ;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.jar{
+    max-width: 400px;
+    height: 320px;
+    margin: 200px 0px 0px 550px ;
+    background-color: rgb(125,125,235);
+    border-radius: 20px;
+    position: relative;
+
+    
+}
+
+
+.jar #message{
+    position: absolute;
+    margin-top: 15%;
+    padding: 50px 50px;
+    color:white;
+    font-size: 21px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+
+}
+
+#thank{
+
+    text-align: center;
+}
+
+
+
+.jar #head{
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 85px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+
+.jar #ok{
+    width: 35%;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color:yellowgreen;
+    font-size: 20px;
+    font-family:"Raleway", sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 260px;
+    left: 50px;
+    transition: transform;
+    
+    
+}
+
+
+.jar #ok:hover{
+    background-color: rgb(191, 255, 0);
+    
+    color: white;
+    
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+
+
+.jar #list{
+    width: 35%;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color:yellowgreen;
+    font-size: 20px;
+    font-family:"Raleway", sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 260px;
+    right: 50px;
+    transition: transform;
+    
+    
+}
+
+
+.jar #list:hover{
+    background-color: #bfff00;
+    color: white;
+    transform: scale(1.05);
+    cursor:pointer;
+}
