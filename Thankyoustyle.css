@@ -61,44 +61,7 @@ body,html{
 
 
 .jar #ok{
-    width: 35%;
-    border: none;
-    height: 45px;
-    border-radius: 10px;
-    color: white;
-    background-color:yellowgreen;
-    font-size: 20px;
-    font-family:"Raleway", sans-serif;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    top: 240px;
-    left: 50px;
-    transition:  width;
-    transition-duration: 1s;
-    transition-timing-function: ease-out;
-
-    
-    
-}
-
-
-.jar #ok:hover{
-    background-color: red;
-    width: 36%;
-    color: white;
-    margin: 0px 0px 0px 10px;
-    cursor: pointer;
-    /* transform: scale(1.05); */
-
-}
-
-
-
-.jar #list{
-    width: 35%;
+    width: 140px;
     border: none;
     height: 45px;
     border-radius: 10px;
@@ -107,20 +70,52 @@ body,html{
     font-size: 20px;
     font-family:"Raleway", sans-serif;
     font-weight: bolder;
-    display: flex;
-    justify-content: center;
     align-items: center;
     position:absolute;
     top: 240px;
+    left: 50px;
+    transition:  transform 0.3s;
+
+    
+    
+}
+
+
+.jar #ok:hover{
+    background-color: var(--accent-lime);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 30px 8px #cccccc;
+
+}
+
+
+
+.jar #list{
+    width: 140px;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--green-500);
+    font-size: 20px;
+    font-family:"Raleway", sans-serif;
+    font-weight: bolder;
+    position:absolute;
+    top: 240px;
     right: 50px;
-    transition: transform;
+    transition: transform 0.3s;
     
     
 }
 
 
 .jar #list:hover{
-    background-color: var(--green-700);
+    background-color: var(--accent-lime);
+    transform: scale(1.04);
     color: white;
     cursor:pointer;
+    box-shadow: 1px 1px 30px 8px #cccccc;
+
 }

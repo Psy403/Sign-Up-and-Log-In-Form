@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+.container{
+    height: 400px;
+    width: 550px;
+    padding: 2rem;
+    margin: 50px auto;
+    background:#FFFFFF;
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+label{
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+.or{
+    text-align: center;
+}
+
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.l-in{
+    width:450px;
+
+    border: none;
+    height: 38px;
+    border-radius: 10px;
+    background-color: rgb(125, 97, 255);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0px 20px 18px;
+}
+
+.formdesign{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.put2{
+    background-color: #F1F5F9;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 550px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    
+}
+
+
+
+.put2::placeholder{
+padding-left: 10px;
+        -webkit-text-fill-color: #CFD4E2;
+}
+
+
+
+.l-in:hover{
+    background-color: rgb(125,125,235);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.info{
+    display: flex;
+    margin-top: 20px;
+    padding: 0 2.5rem;
+    position: absolute;
+    left: 540px;
+    
+}
+
+.abc{
+    font-size: 17px;
+    margin-left: 35px;
+}
+
+.sup2-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(125, 97, 255);
+    margin-left: 20px;
+}
+
+.sup2-btn:hover{
+    color: rgb(125,125,235);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+#show{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: royalblue;
+    position: absolute;
+    top: 22.2pc;
+    right:35pc;
+}
+
+#show:hover{
+    cursor: pointer;
+}
+
+
+#showing{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: royalblue;
+    position: absolute;
+    top: 25.1pc;
+    right:35pc;
+}
+
+#showing:hover{
+    cursor: pointer;
+}
